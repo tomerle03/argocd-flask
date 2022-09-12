@@ -15,6 +15,6 @@ spec:
         app.kubernetes.io/instance: test
     spec:
       containers:
-      - name: testapp1
+      - name: testapp
         image: tomerle03/test-argo:latest
         imagePullPolicy: Always
