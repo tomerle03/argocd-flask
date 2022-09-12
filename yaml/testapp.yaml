@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: testapp
-    image: testapp:latest
+    image: rapidfort/flaskapp:latest
     imagePullPolicy: Always
     resources:
       limits:
