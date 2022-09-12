@@ -3,7 +3,7 @@ from flask import Flask
 app = Flask(__name__)
 
 names = "tomer leibovitch\nliad mizrahi\nitay shitrit\nron limor\nshaked stern"
-stam = "yesssss"
+stam = "ooooooooooo"
 
 @app.route("/")
 def hello_world():
