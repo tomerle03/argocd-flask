@@ -8,5 +8,6 @@ spec:
     app.kubernetes.io/instance: test
   ports:
     - protocol: TCP
+      nodePort: 5000
       port: 80
       targetPort: 5000
